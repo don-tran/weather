@@ -69,12 +69,17 @@ json response:
 
 # api response
 current: current weather
+
 current.temp: temperature with Fahrenheit unit
+
 current.tempCondition: current temparature condition which hot, cold, moderate
+
 current.weather: 
     current.weather.main: group of weather paramenters(rain, clouds, snow,...)
     current.weather.description: weather condition within the group
 
 current.humidity: humidity %
+
 current.windSpeed: wind speed mph
+
 alerts: national alerts from major weather warning systems
